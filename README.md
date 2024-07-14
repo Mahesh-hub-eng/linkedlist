@@ -56,8 +56,7 @@ class llist:
                 n2=n2.next
                 i+=1
             n=n2.next
-            n1.next=n
-                
+            n1.next=n           
     def length(self):
         if self .head==None:
             return 0
@@ -83,7 +82,6 @@ class llist:
                 i+=1
             a.next=n2
             n1.next=a
-    
     def traverse(self):
         temp=self.head
         if temp==None:
